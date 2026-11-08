@@ -1,0 +1,17 @@
+# Build output
+out/
+bin/
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Files dropped into the shared folders while testing
+shared/**/*
+!shared/**/
+!shared/**/.gitkeep
